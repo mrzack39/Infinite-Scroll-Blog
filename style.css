@@ -1,0 +1,47 @@
+body {
+    background-color: #0b67c3;
+    color: #212529;
+    font-family: 'Roboto';
+}
+
+#postContainer {
+    margin-top: 10px;
+}
+
+.post-card {
+    background-color: #fff;
+    color: #212529;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 0.25rem;
+    position: relative;
+}
+
+.post-id {
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    font-size: 16px;
+    background-color: #fff;
+    color: #007bff;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #007bff;
+}
+
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    visibility: hidden;
+}
+
+.loader.show {
+    visibility: visible;
+}
